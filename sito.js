@@ -21,7 +21,7 @@ var hng_ID = personalInformation.hng_ID
 var email = personalInformation.email
 var programmeLang = personalInformation.programmeLang
 
-alert("Hello world, this is " + fullName + " with HNGi7_Id: " + hng_ID + " with email address " + email + " using " + programmeLang + " for  Stage 2 task" );
+alert("Hello world, this is " + fullName + " with HNGi7_Id: " + hng_ID + " and email address " + email + " using " + programmeLang + " for  Stage 2 task" );
 
 
 
