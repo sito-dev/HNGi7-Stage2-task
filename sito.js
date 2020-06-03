@@ -11,7 +11,7 @@ function sitoInformation(){
     return `Hello world, this is ${this.firstName} ${this.lastName} with HNGi7 ID ${this.hng_id} using ${this.language} for stage 2 task. ${this.email}`
   }
  }
-  alert(personalInformation.fullHistory());
+  console.log(personalInformation.fullHistory());
 }
 
 sitoInformation();
