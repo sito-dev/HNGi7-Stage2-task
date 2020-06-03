@@ -4,6 +4,7 @@
 
 
 //my information Object goes here
+// Ogundare Israel Taiwo
 
 var personalInformation = {
 fullName: "Ogundare Israel Taiwo",
