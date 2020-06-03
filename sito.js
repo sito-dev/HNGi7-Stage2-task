@@ -1,4 +1,3 @@
-<script>
 
 function sitoInformation(){
  const personalInformation = {
@@ -15,4 +14,3 @@ function sitoInformation(){
 }
 
 sitoInformation();
-</script>
