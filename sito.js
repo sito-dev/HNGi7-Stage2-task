@@ -1,27 +1,29 @@
+
 <script>
 
- function sitoInformation(){
 
-//my information Object goes here.
 
-  const personalInformation = {
-   fullName: "Ogundare Israel Taiwo",
-   ID: "HNG-03186",
-   programmeLang: "Javascript",
-   fullHistory: function() {
-    return `Hello world, this is ${this.fullName} with HNGi7 ID: ${this.ID} using ${this.programmeLang} for Stage 2 Task`;
-   }
+//my information Object goes here
 
+var personalInformation = {
+fullName: "Ogundare Israel Taiwo",
+hng_ID: "HNG-03186",
+email: "ogundare_taiwo1@yahoo.com",
+programmeLang: "Javascript"
 }
 
- document.write(personalInformation.fullHistory());
+personalInformation = JSON.stringify(personalInformation)
+personalInformation = JSON.parse(personalInformation)
+
+var fullName = personalInformation.fullName
+var hng_ID = personalInformation.hng_ID
+var email = personalInformation.email
+var programmeLang = personalInformation.programmeLang
+
+alert("Hello world, this is " + fullName + " with HNGi7_Id: " + hng_ID + " with email address " + email + " using " + programmeLang + " for  Stage 2 task" );
 
 
-}
 
-//calling my sitoInformation function for a print
-
-sitoInformation();
 
 
 </script>
